@@ -128,3 +128,252 @@ button1:hover{
     top: 80%;
     right: 19px;
 }
+
+/* --- Fonts --- */
+
+.heading-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.heading-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.heading-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+.body-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.body-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.small-button-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.large-button-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+/* --- Buttons ---  */
+
+.small-button {
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.large-button {
+    width: 343px;
+    height: 48px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.button-1 {
+    background-color: #a32de3;
+    color: #fff;
+    border-color: #a32de3;
+}
+
+.button-2 {
+    background-color: #fff;
+    color: #a32de3;
+    border-color: #a32de3;
+    border-width: 2px;
+}
+
+.rounded {
+    border-radius: 12px;
+}
+
+/* --- General ---  */
+
+body {
+    margin: 0;
+}
+
+.bm {
+    text-transform: uppercase;
+}
+
+/* --- Section Header ---  */
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 5% 10% 85%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.text-l-h {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.img-l-h {
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+
+.hr-header {
+    width: 30px;
+    border: none;
+    transform: rotate(90deg);
+    height: 5px !important;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.f-header {
+    margin-top: 10px;
+}
+
+.f-e-header {
+    margin: 0px 10px;
+}
+
+/* --- Section Contactanos ---  */
+
+.p-section-contactanos {
+    background: url("../images/auditorium.jpg");
+    background-attachment: unset;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 600px;
+}
+
+.field {
+    width: 30%;
+}
+
+.g-form {
+    display: grid;
+    grid-template-rows: 40% repeat(2, 10%) 1fr;
+    grid-template-columns: 35% 65%;
+    height: 600px;
+}
+
+.first-r-f-grid {
+    margin: 180px 10px 20px 30px;
+}
+
+.element-f-grid {
+    margin: 10px 10px 10px 30px;
+}
+
+.last-r-f-grid {
+    margin: 15px 10px 160px 30px;
+    resize: none;
+}
+
+.h5-f-grid {
+    margin-left: 90px;
+}
+
+.g-information {
+    display: grid;
+    grid-template-rows: 35% 40% 25%;
+    height: 600px;
+}
+
+.hr-inf {
+    width: 380px;
+    height: 10px !important;
+    background-color: #a32de3;
+    border: none;
+    opacity: 1;
+    margin-left: 30px;
+}
+
+.middle-r-i-grid {
+    margin: 0px 30px;
+    line-height: 3;
+}
+
+.last-r-i-grid {
+    margin: 30px;
+}
+
+.i-title {
+    margin: 50px 0px 0px 30px;
+}
+
+/* --- Section Footer ---  */
+
+.footer {
+    background-color: #e3e3e3;
+    display: grid;
+    grid-template-columns: 80% repeat(2, 3%) auto;
+    align-items: center;
+}
+
+.h5-footer {
+    margin: 0px 0px 0px 80px;
+}
+
+.icon-footer {
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.last-i-footer {
+    margin-left: 12px;
+}

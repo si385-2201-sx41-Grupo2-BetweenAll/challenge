@@ -5,25 +5,78 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="icon" href="favicon.ico  " />
     <link rel="stylesheet" href="assets/styles/styles.css">
 
     <title>BetweenAll</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+    />
 
 </head>
 <body>
 <header>
-
+    <nav>
+        <div class="navbar">
+            <img
+                    src="assets/images/logo.png"
+                    alt="BetweenAll"
+                    width="35"
+                    height="35"
+                    class="img-l-h"
+            />
+            <a class="text-l-h black heading-3" href="#">BetweenAll</a>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-link body-2 black" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link body-2 black" href="#">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="nav-link body-2 black" href="#">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="nav-link body-2 black" href="#">Contacto</a>
+                    </li>
+                    <li>
+                        <a class="nav-link body-2 black" href="#">Descargar</a>
+                    </li>
+                </ul>
+                <hr class="hr-header" />
+                <form class="f-header">
+                    <button
+                            class="small-button small-button-font button-1 f-e-header"
+                            type="button"
+                    >
+                        Iniciar Sesión
+                    </button>
+                    <button
+                            class="me-2 small-button small-button-font button-2 f-e-header"
+                            type="button"
+                    >
+                        Regístrate
+                    </button>
+                    <input
+                            class="f-e-header body-3 rounded"
+                            type="search"
+                            placeholder="Buscar"
+                    />
+                </form>
+            </div>
+        </div>
+    </nav>
 </header>
 <main>
     <section>
         <div class="inicio">
-            <h5>¿No tienes con quien ir a ese evento tan esperado? Encuentralo aquí</h5>
-            <p>La experiencia completa de un evento en un solo lugar.</p>
+            <h5><b>¿No tienes con quien ir a ese evento tan esperado? Encuentralo aquí</b></h5>
+            <p><b>La experiencia completa de un evento en un solo lugar</b></p>
             <div class="btn_container">
                 <button1>Ver más</button1>
             </div>
@@ -39,7 +92,7 @@
             <div class="content">
                 <div class="title">
                     <div class="subrayado"></div>
-                    <h3 style="font-size: 50px">  NOSOTROS  </h3>
+                    <h3 style="font-size: 50px"> <b> NOSOTROS </b></h3>
                 </div>
 
                 <div class="text">
@@ -59,9 +112,71 @@
         </div>
 
     </section>
-</main>
-<footer>
 
+    <section class="p-section-contactanos">
+        <div class="white body-2" style="margin-right: 30px">
+            <form class="g-form">
+                <h5 class="field first-r-f-grid h5-f-grid">Nombre</h5>
+                <input class="rounded first-r-f-grid" type="text" />
+                <h5 class="field element-f-grid h5-f-grid">Correo</h5>
+                <input class="rounded element-f-grid" type="text" />
+                <h5 class="field element-f-grid h5-f-grid">Asunto</h5>
+                <input class="rounded element-f-grid" type="text" />
+                <h5 class="field last-r-f-grid h5-f-grid">Mensaje</h5>
+                <textarea class="rounded last-r-f-grid" type="text"></textarea>
+            </form>
+        </div>
+        <div class="g-information">
+            <div>
+                <h1 class="white heading-1 i-title bm">Contáctanos</h1>
+                <hr class="hr-inf" />
+            </div>
+            <h5 class="white body-2 middle-r-i-grid">
+                <b>Dirección:</b> Av La Marina 2810, San Miguel <br />
+                <b>Teléfono:</b> 999 989 898 <br />
+                <b>Fax:</b> 554.555.9090 <br />
+                <b>E-mail:</b> BetweenAll@gmail.com <br />
+            </h5>
+            <input
+                    class="btn btn-primary large-button large-button-font button-1 last-r-i-grid"
+                    type="submit"
+                    value="Enviar"
+            />
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <h5 class="body-3 h5-footer">
+        Copyright ©2022 All rights reserved BetweenAll
+    </h5>
+    <a class="icon-footer" href="https://web.whatsapp.com/" target="_blank">
+        <img
+                src="assets/images/whatsapp_logo.png"
+                alt="WhatsApp"
+                width="20"
+                height="20"
+        />
+    </a>
+    <a class="icon-footer" href="https://www.facebook.com/" target="_blank">
+        <img
+                src="assets/images/facebook_logo.png"
+                alt="Facebook"
+                width="28"
+                height="28"
+        />
+    </a>
+    <a
+            class="icon-footer last-i-footer"
+            href="https://www.instagram.com/"
+            target="_blank"
+    >
+        <img
+                src="assets/images/instagram_logo.png"
+                alt="Instagram"
+                width="20"
+                height="20"
+        />
+    </a>
 </footer>
 
 </body>
